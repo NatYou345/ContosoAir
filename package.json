@@ -37,7 +37,7 @@
     "passport-local": "^1.0.0",
     "popper.js": "^1.14.4",
     "serve-favicon": "^2.5.0",
-    "uuid": "^3.3.2"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.2.1",
