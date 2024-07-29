@@ -22,7 +22,7 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "bootstrap-datepicker": "^1.10.0",
-    "debug": "~4.3.5",
+    "debug": "~4.3.6",
     "express": "~4.19.2",
     "express-flash": "0.0.2",
     "express-handlebars": "^7.1.3",
