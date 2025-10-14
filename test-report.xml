@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/home/runner/work/ContosoAir/ContosoAir/src/services/navbar.service.spec.js" errors="0" package="/home/runner/work/ContosoAir/ContosoAir/src/services/navbar.service.spec.js" hostname="localhost" tests="3" failures="0" time="0.756" timestamp="2025-10-14T06:32:26">
+    <properties>
+    </properties>
+    <testcase classname="[Unit] That Navbar Service" name="returns always three arrays" time="0">
+    </testcase>
+    <testcase classname="[Unit] That Navbar Service" name="dont have greeting if not logged in" time="0">
+    </testcase>
+    <testcase classname="[Unit] That Navbar Service" name="to have the correct active flag" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="/home/runner/work/ContosoAir/ContosoAir/src/services/flights.service.spec.js" errors="0" package="/home/runner/work/ContosoAir/ContosoAir/src/services/flights.service.spec.js" hostname="localhost" tests="3" failures="0" time="0.894" timestamp="2025-10-14T06:32:26">
+    <properties>
+    </properties>
+    <testcase classname="[Unit] That Flights Service" name="returns empty if no flights in repository" time="0">
+    </testcase>
+    <testcase classname="[Unit] That Flights Service" name="returns all flights" time="0">
+    </testcase>
+    <testcase classname="[Unit] That Flights Service" name="get correct flight by id with correct parsers" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="/home/runner/work/ContosoAir/ContosoAir/src/services/book.service.spec.js" errors="0" package="/home/runner/work/ContosoAir/ContosoAir/src/services/book.service.spec.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="/home/runner/work/ContosoAir/ContosoAir/src/services/deals.service.spec.js" errors="0" package="/home/runner/work/ContosoAir/ContosoAir/src/services/deals.service.spec.js" hostname="localhost" tests="2" failures="0" time="0.177" timestamp="2025-10-14T06:32:27">
+    <properties>
+    </properties>
+    <testcase classname="[Unit] That Deals Service" name="returns correct destinations" time="0">
+    </testcase>
+    <testcase classname="[Unit] That Deals Service" name="returns correct deal" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="/home/runner/work/ContosoAir/ContosoAir/src/services/date.service.spec.js" errors="0" package="/home/runner/work/ContosoAir/ContosoAir/src/services/date.service.spec.js" hostname="localhost" tests="2" failures="0" time="0.118" timestamp="2025-10-14T06:32:27">
+    <properties>
+    </properties>
+    <testcase classname="[Unit] That Date Service" name="returns a valid list of days for set of 8 days" time="0">
+    </testcase>
+    <testcase classname="[Unit] That Date Service" name="returns a valid list of days for a set of 5 days" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="/home/runner/work/ContosoAir/ContosoAir/src/services/deals.service.ispec.js" errors="0" package="/home/runner/work/ContosoAir/ContosoAir/src/services/deals.service.ispec.js" hostname="localhost" tests="4" failures="0" time="0.092" timestamp="2025-10-14T06:32:27">
+    <properties>
+    </properties>
+    <testcase classname="[Int] That Deals Service" name="returns always 1 destinations" time="0">
+    </testcase>
+    <testcase classname="[Int] That Deals Service" name="returns always 3 destinations" time="0">
+    </testcase>
+    <testcase classname="[Int] That Deals Service" name="returns always 2 deals" time="0">
+    </testcase>
+    <testcase classname="[Int] That Deals Service" name="returns always 4 deals" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="/home/runner/work/ContosoAir/ContosoAir/src/services/price.service.spec.js" errors="0" package="/home/runner/work/ContosoAir/ContosoAir/src/services/price.service.spec.js" hostname="localhost" tests="2" failures="0" time="0.072" timestamp="2025-10-14T06:32:27">
+    <properties>
+    </properties>
+    <testcase classname="[Unit] That Price Service" name="returns always higher prices on weekend" time="0">
+    </testcase>
+    <testcase classname="[Unit] That Price Service" name="always return more than base price" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="/home/runner/work/ContosoAir/ContosoAir/src/services/airports.service.spec.js" errors="0" package="/home/runner/work/ContosoAir/ContosoAir/src/services/airports.service.spec.js" hostname="localhost" tests="3" failures="0" time="0.044" timestamp="2025-10-14T06:32:27">
+    <properties>
+    </properties>
+    <testcase classname="[Unit] That Airports Service" name="gets all listed airpots" time="0">
+    </testcase>
+    <testcase classname="[Unit] That Airports Service" name="gets specific airport" time="0">
+    </testcase>
+    <testcase classname="[Unit] That Airports Service" name="never has an empty city" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="8" name="/home/runner/work/ContosoAir/ContosoAir/src/services/book.form.service.spec.js" errors="0" package="/home/runner/work/ContosoAir/ContosoAir/src/services/book.form.service.spec.js" hostname="localhost" tests="1" failures="0" time="0.07" timestamp="2025-10-14T06:32:27">
+    <properties>
+    </properties>
+    <testcase classname="[Unit] That Book Form Service" name="all required form fields on view exist" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="9" name="/home/runner/work/ContosoAir/ContosoAir/src/services/airports.service.ispec.js" errors="0" package="/home/runner/work/ContosoAir/ContosoAir/src/services/airports.service.ispec.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
