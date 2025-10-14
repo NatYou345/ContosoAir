@@ -17,14 +17,21 @@ module.exports = {
                 test: /\.s?css$/,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    { loader: 'css-loader', options: { importLoaders: 1 } },
+                    { 
+                        loader: 'css-loader', 
+                        options: { 
+                            importLoaders: 1,
+                            url: false
+                        } 
+                    },
                     {
                         loader: 'postcss-loader',
                         options: {
-                          ident: 'postcss',
-                          plugins: [
-                            require('autoprefixer')({add: true })
-                          ]
+                          postcssOptions: {
+                            plugins: [
+                              ['autoprefixer', { add: true }]
+                            ]
+                          }
                         }
                     },
                     'sass-loader',
