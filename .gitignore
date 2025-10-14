@@ -369,6 +369,7 @@ jspm_packages
 
 # Project specifics
 .vscode/
+test-report.xml
 
 # Mac
 .DS_Store/
