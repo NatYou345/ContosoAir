@@ -27,8 +27,8 @@ describe('[Unit] That Book Service', () => {
         const result = await bookService.getFlights('me');
         expect(result).toEqual([]);
         const bookRepositoryGetUserInfo = BookRepository.mock.instances[0].getUserInfo;
-        expect(bookRepositoryGetUserInfo).toBeCalledTimes(1);
-        expect(bookRepositoryGetUserInfo).toBeCalledWith('me');
+        expect(bookRepositoryGetUserInfo).toHaveBeenCalledTimes(1);
+        expect(bookRepositoryGetUserInfo).toHaveBeenCalledWith('me');
     });
         
     it('adds up the price on ', async () => {
@@ -71,8 +71,8 @@ describe('[Unit] That Book Service', () => {
 
         expect(id).toBeTruthy();
         const bookRepositoryCreateOrUpdateUserInfo = BookRepository.mock.instances[0].createOrUpdateUserInfo;
-        expect(bookRepositoryCreateOrUpdateUserInfo).toBeCalled();
-        expect(bookRepositoryCreateOrUpdateUserInfo).toBeCalledWith(
+        expect(bookRepositoryCreateOrUpdateUserInfo).toHaveBeenCalled();
+        expect(bookRepositoryCreateOrUpdateUserInfo).toHaveBeenCalledWith(
             expect.objectContaining({
                 id: expect.stringMatching('me'),
                 booked: expect.objectContaining({
@@ -121,8 +121,8 @@ describe('[Unit] That Book Service', () => {
         const id = await bookService.purchase('me');
         expect(id).toBe('87ffc07c-6d9e-47f7-8ce1-f4d23d678b85');
         const bookRepositoryCreateOrUpdateUserInfo = BookRepository.mock.instances[0].createOrUpdateUserInfo;
-        expect(bookRepositoryCreateOrUpdateUserInfo).toBeCalled();
-        expect(bookRepositoryCreateOrUpdateUserInfo).toBeCalledWith({
+        expect(bookRepositoryCreateOrUpdateUserInfo).toHaveBeenCalled();
+        expect(bookRepositoryCreateOrUpdateUserInfo).toHaveBeenCalledWith({
             id: expect.stringMatching('me'),
             user: expect.anything(),
             booked: null,
