@@ -18,6 +18,6 @@ describe('[Unit] That Book Form Service', () => {
         expect(Array.isArray(formData.passengers)).toBe(true);
         expect(formData.passengers).toEqual(expect.arrayContaining([1]));
         const airportsGetAll = AirportsService.mock.instances[0].getAll
-        expect(airportsGetAll).toBeCalledTimes(1);
+        expect(airportsGetAll).toHaveBeenCalledTimes(1);
     });
 });
