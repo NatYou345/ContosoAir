@@ -8,6 +8,6 @@ module.exports = {
   parse: jest.fn((uuid) => Buffer.from(uuid.replace(/-/g, ''), 'hex')),
   stringify: jest.fn((buf) => {
     const hex = buf.toString('hex');
-    return `${hex.substr(0, 8)}-${hex.substr(8, 4)}-${hex.substr(12, 4)}-${hex.substr(16, 4)}-${hex.substr(20)}`;
+    return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
   })
 };
